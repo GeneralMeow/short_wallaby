@@ -13,10 +13,13 @@ Creating this web application will provide exposure to:
 
 ## Specifications
 
-- [ ] Books can be added into the system
-- [ ] Books entered in the system are listed on the home page, in pages of 10
-- [ ] Search for books by title OR by author OR by genre, and search results will be presented in a new page
-- [ ] View book details on a book detail page, linked to from the listing or search pages
+- [ ] Navigation allows users to search books by title, author or genre; and add books into the system
+- [ ] Clicking on "ADD A BOOK" brings up interface to add book by title, author, or genre
+- [ ] Books entered in the system will be rendered on the home page all on page on a grid using Masonry or similar.
+- [ ] Cilcking on a book will bring up single book view
+- [ ] From single boook view, user can edit book info, or delete it
+- [ ] Edting pane will allow users to edit the book info database
+- [ ] Built as single page web application using express and routes.js
 
 ### Required
 
@@ -28,7 +31,6 @@ Creating this web application will provide exposure to:
 - Variables, functions, css classes, etc. are meaningfully named (no comments exist in code to explain functionality - the names serve that function)
 - Functions are small and serve a single purpose
 - Code is well organized into a meaningful file structure
-- Code is reasonably tested with a test suite
 - Interface is user friendly
 
 ## Resources
