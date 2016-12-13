@@ -1,0 +1,30 @@
+{
+  "name": "short-wallaby-bookstore",
+  "version": "1.0.0",
+  "description": "simple bookstore app",
+  "main": "app.js",
+  "scripts": {
+    "test": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeneralMeow/short_wallaby.git"
+  },
+  "author": "GeneralMeow, alfonsotech, lisabronwyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeneralMeow/short_wallaby/issues"
+  },
+  "homepage": "https://github.com/GeneralMeow/short_wallaby#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "handlebars": "^4.0.6",
+    "isotope-layout": "^3.0.1",
+    "page": "^1.7.1",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.1",
+    "nodemon": "^1.11.0"
+  }
+}
