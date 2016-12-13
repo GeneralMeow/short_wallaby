@@ -305,15 +305,15 @@ const library = [
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Flame Alphabet",
+    author:"Ben Marcus",
+    bookUrl:"images/book-cover-images/theflamealphabet-1060x1585.jpg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Brief History Of The Dead",
+    author:"Kevin Brockmeier",
+    bookUrl:"images/book-cover-images/theflamealphabet-1060x1585.jpg",
     description:""
   },
   {
