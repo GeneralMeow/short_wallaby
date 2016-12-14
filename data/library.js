@@ -305,68 +305,87 @@ const library = [
     description:""
   },
   {
-    title: "The Flame Alphabet",
-    author:"Ben Marcus",
-    bookUrl:"images/book-cover-images/theflamealphabet-1060x1585.jpg",
-    description:""
-  },
-  {
     title: "The Brief History Of The Dead",
     author:"Kevin Brockmeier",
     bookUrl:"images/book-cover-images/theflamealphabet-1060x1585.jpg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Flame Alphabet",
+    author:"Ben Marcus",
+    bookUrl:"images/book-cover-images/theflamealphabet-1060x1585.jpg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Light Between Oceans",
+    author:"M.L. Steadman",
+    bookUrl:"images/book-cover-images/thelightbetweenoceans-1536x2347.jpg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Lord Of The Flies",
+    author:"William Goldman",
+    bookUrl:"images/book-cover-images/thelordoftheflies-1536x2309.jpg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Shallows",
+    author:"Nicholas Carr",
+    bookUrl:"images/book-cover-images/theshallows-1536x2332-1.jpg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Sky Is Everywhere",
+    author:"Jandy Nelson",
+    bookUrl:"images/book-cover-images/theshallows-1536x2332-1.jpg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Wealth Of Nations",
+    author:"Adam Smith",
+    bookUrl:"images/book-cover-images/thewealthofnations-1060x1640.jpg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "The Wonderful Wizard Of Oz",
+    author:"L. Frank Baum",
+    bookUrl:"images/book-cover-images/thewonderfulwizard-1536x2381.jpeg",
     description:""
   },
   {
-    title: "The Alchemist",
-    author:"Paolo Coelho",
-    bookUrl:"images/book-cover-images/thealchemist-1536x1992.jpg",
+    title: "To Kill A Mockingbird",
+    author:"Harper Lee",
+    bookUrl:"images/book-cover-images/tokillamockinbird-1536x2435.png",
     description:""
   },
-
-
-
-
-
+  {
+    title: "Tokyo On Foot",
+    author:"Florent Chavouet",
+    bookUrl:"images/book-cover-images/tokyoonfoot-1060x1448.jpg",
+    description:""
+  },
+  {
+    title: "Treasure Island",
+    author:"Robert Louis Stevenson",
+    bookUrl:"images/book-cover-images/treasureisland-1060x1500.jpg",
+    description:""
+  },
+  {
+    title: "Undiscovered Gyrl",
+    author:"Robert Louis Stevenson",
+    bookUrl:"images/book-cover-images/treasureisland-1060x1500.jpg",
+    description:""
+  },
+  {
+    title: "White Like Me",
+    author:"Tim Wise",
+    bookUrl:"images/book-cover-images/White_Like_Melarge-1536x2378.jpg",
+    description:""
+  },
+  {
+    title: "A Novel Of Zelda Fitzgerald",
+    author:"Therese Anne Fowler",
+    bookUrl:"images/book-cover-images/treasureisland-1060x1500.jpg",
+    description:""
+  }
 ];
