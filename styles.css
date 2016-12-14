@@ -10,7 +10,7 @@
   width: 100%;
   display: block;
   margin: 0 auto;
-  padding: 5em;
+  padding: 2.5em 5em;
   overflow: hidden;
 }
 .grid-item {
@@ -36,7 +36,7 @@ ul li {
 .grid-item img {
   width: 170px;
   height: 260px;
-  box-shadow: 5px 10px 5px grey;
+  box-shadow: 5px 10px 5px rgb(215,225,234);
   border: 1px solid rgba(255, 255, 255, .3);
   margin: 10px;
 }
@@ -52,18 +52,25 @@ ul li {
   height: 25%;
 }
 .search {
+  margin-top: .5em;
   height: inherit;
   width: 250px;
 }
 #search-box {
   font-family: 'Lato', sans-serif;
+  font-style: italic;
+  color: rgba(0,0,0,.5);
   padding: .5em;
   width: 150px;
   box-shadow: 1px 0px 1px rgba(242, 242, 242, .5) inset, 0px 1px 1px rgba(242, 242, 242, .5) inset;
 }
 #add-book {
   font-family: 'Lato', sans-serif;
-  padding: .4em;
+
+  padding: .45em;
   border-radius: 5px;
   font-weight: bold;
+  box-shadow: 5px 5px 5px rgb(215,225,234);
+  border: 1px solid rgba(255, 255, 255, .9);
+  margin-left: 1em;
 }
