@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Good Looking Book Store</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet">
   </head>
   <body>
 
@@ -17,27 +18,45 @@
       <li class="book-description"></li>
     </ul>
 
-    <!-- Sections for different page views-->
-    <!-- Home Page-->
-    <section id="home" class="tab-content">
-      <div class="grid">
-      </div>
-    </section>
+    <main>
+    <!-- Navigation-->
+      <section>
+        <div class="container" id="navigation">
+          <!-- logo-->
+          <img  id="logo" src="images/short-wallaby.svg" alt="logo">
+          <!-- search box-->
+          <form class="search">
 
-    <!-- Book Detail Page -->
-    <section id="book-detail" class="tab-content">
+            <input id="search-box" type="text" name="" value="Enter a book title or author">
+            <button id="add-book" type="submit" name="button">Add Book</button>
 
-    </section>
+          </form>
+          <!-- add a book button-->
+        </div>
+      </section>
 
-    <!-- Book Edit Page-->
-    <section id="book-edit" class="tab-content">
+      <!-- Sections for different page views-->
+      <!-- Home Page-->
+      <section id="home" class="tab-content">
+        <div class="grid">
+        </div>
+      </section>
 
-    </section>
+      <!-- Book Detail Page -->
+      <section id="book-detail" class="tab-content">
 
-    <!-- Book Add Page-->
-    <section id="book-add" class="tab-content">
+      </section>
 
-    </section>
+      <!-- Book Edit Page-->
+      <section id="book-edit" class="tab-content">
+
+      </section>
+
+      <!-- Book Add Page-->
+      <section id="book-add" class="tab-content">
+
+      </section>
+      </main>
 
     <!--Main Scripts -->
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
