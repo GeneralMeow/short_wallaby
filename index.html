@@ -3,12 +3,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Good Looking Book Store</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <!-- Template preparation-->
-    <ul>
+    <ul class="hidden">
       <li class="book-cover"></li>
       <li class="book-title"></li>
       <li class="book-author"></li>
@@ -18,7 +19,8 @@
     <!-- Sections for different page views-->
     <!-- Home Page-->
     <section id="home" class="tab-content">
-
+      <div class="grid">
+      </div>
     </section>
 
     <!-- Book Detail Page -->
@@ -37,6 +39,13 @@
     </section>
 
     <!--Main Scripts -->
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="vendor-scripts/packery.pkgd.min.js"></script>
+    <script type="text/javascript" src="packery.js"></script>
+
+    <script type="text/javascript" src="data/library.js"></script>
+    <script type="text/javascript" src="scripts/models/libraryModel.js"></script>
+    <!-- <script type="text/javascript" src="scripts/models/libraryView.js"></script> -->
   </body>
 </html>
