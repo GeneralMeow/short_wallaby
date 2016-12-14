@@ -1,0 +1,20 @@
+* {
+  outline: 1px dotted red;
+}
+.grid-item {
+  width: 25%;
+  background-color: red;
+  color: white;
+  font-size: 2em;
+  margin: 5px;
+}
+.grid-item--width2 {
+  width: 50%;
+  background-color: blue;
+  color: white;
+  font-size: 2em;
+  margin: 5px;
+}
+.hidden {
+  visibility: none;
+}
