@@ -1,20 +1,29 @@
 * {
   outline: 1px dotted red;
+
 }
 .grid-item {
-  width: 25%;
-  background-color: red;
-  color: white;
-  font-size: 2em;
-  margin: 5px;
+  background-color: white;
+  padding:0px;
+  margin: 0 auto;
+  float:left;
+  gutter: 0;
 }
-.grid-item--width2 {
+/*.grid-item--width2 {
   width: 50%;
   background-color: blue;
   color: white;
   font-size: 2em;
   margin: 5px;
-}
+
+}*/
 .hidden {
-  visibility: none;
+  display: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  width: 200px;
+  height: 260px;
 }
