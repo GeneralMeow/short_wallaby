@@ -26,7 +26,8 @@ Library.loadAll = function(booksData) {
 Library.render = function() {
   Library.loadAll(library);
   library.forEach(function(book) {
-    htmlString = '<div class="grid-item"><img src="' + book.bookUrl + '"></div>';
+    //needs const
+    const htmlString = '<div class="grid-item"><img src="' + book.bookUrl + '"></div>';
     // console.log(htmlString);
     //append each book to the book grid
     $('.grid').append(htmlString);

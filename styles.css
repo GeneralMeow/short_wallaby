@@ -1,9 +1,15 @@
 * {
-  outline: 1px dotted red;
-
+.grid-item {
+  background-color: #F2F2F2;
+}
+#home {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 5em;
+  overflow: hidden;
 }
 .grid-item {
-  background-color: white;
   padding:0px;
   margin: 0 auto;
   float:left;
@@ -24,6 +30,6 @@ ul li {
   list-style: none;
 }
 img {
-  width: 200px;
+  width: 170px;
   height: 260px;
 }
