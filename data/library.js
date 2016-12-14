@@ -337,7 +337,7 @@ const library = [
   {
     title: "The Sky Is Everywhere",
     author:"Jandy Nelson",
-    bookUrl:"images/book-cover-images/theshallows-1536x2332-1.jpg",
+    bookUrl:"images/book-cover-images/theskyiseverywhere-1536x2308.jpg",
     description:""
   },
   {
