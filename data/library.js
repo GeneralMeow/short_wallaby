@@ -1,5 +1,5 @@
 const library = [
-  {
+  INSERT INTO database {
     title: "1984",
     author:"George Orwell", bookUrl:"images/book-cover-images/1984-1536x2028.jpg",
     description:""
