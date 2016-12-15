@@ -102,6 +102,19 @@ ul li {
   height: 30%;
 	padding: 20px 0px 0px 85px;
 }
+#hr {
+    width: 55%;
+		border: 0.2em;
+		margin-top: 10px;
+		padding-top: 6px;
+		padding-right: 30px;
+    height: 0;
+    box-shadow: 0 0 5px 1px black;
+}
+#hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
 .search {
   margin-top: 1em;
 	padding: 10px;
