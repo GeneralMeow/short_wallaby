@@ -61,7 +61,7 @@ const library = [
   {
     title: "David Lynch",
     author:"David Lynch",
-    bookUrl:"images/book-cover-images/davidlynch-1536x1987.jpg",
+    bookUrl:"images/book-cover-images/davidlynch.jpg",
     description:""
   },
   {
