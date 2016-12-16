@@ -4,9 +4,6 @@ const db = require('../database')
 //before using findBooks, require right HERE!!!
 const {getAllBooks, getBookById} = require('../database')
 
-
-
-
 router.get('/', function(request, response, next) {
   db.getAllBooks()
   .then(data => response.json(data))

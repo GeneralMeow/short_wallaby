@@ -4,8 +4,8 @@ html
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title The Good Looking Book Store
-    link(rel='stylesheet', href='/public/stylesheets/styles.css')
-    link(rel='stylesheet', href='/public/stylesheets/meyers-reset.css')
+    link(rel='stylesheet', href='/stylesheets/meyers-reset.css')
+    link(rel='stylesheet', href='/stylesheets/styles.css')
     link(href='https://fonts.googleapis.com/css?family=Lato|Playfair+Display', rel='stylesheet')
     script.
       //packery logic
@@ -43,8 +43,9 @@ html
       section#home.tab-content
         .grid
           ul.grid-item
-            each book in short_wallaby_library
-              li = img(src="' + book.bookUrl + '")
+            each book in books
+              li
+                img(src=book.bookUrl)
       // Book Detail Page
       section#book-detail.tab-content
         .detail-display
@@ -53,7 +54,7 @@ html
           img.book-holder-image(src='http://placehold.it/170x260.jpg', alt='blank book image')
           // container to hold title, author, description
           .book-info
-            h1.book-title Book Title
+            h1.book-title=book.title
             h2.book-author Book Author
             p.book-description Book Description
           // Form to hold edit and del buttons
@@ -88,9 +89,10 @@ html
           // Form to hold edit and del buttons
     // Main Scripts
     script(src='http://code.jquery.com/jquery-1.11.1.js')
-    // <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     script(src='vendor-scripts/packery.pkgd.min.js')
     script(type='text/javascript', src='packery.js')
     script(type='text/javascript', src='data/library.js')
     script(type='text/javascript', src='scripts/models/libraryModel.js')
     // <script type="text/javascript" src="scripts/models/libraryView.js"></script>
+    //views scripts
+    script(type='text/javascript', src='/javascripts/index.js')
