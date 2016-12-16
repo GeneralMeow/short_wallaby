@@ -7,7 +7,8 @@ const {getAllBooks} = require('../database')
 
 /* GET home page. */
 router.get('/', function(request, response, next) {
-  response.render('index', { title: 'Express' })
+  // Initial db read to create array books
+  response.render('template', { books: [{title:'Im a book', bookUrl:'blah'}] })
 });
 
 router.get('/book', function(request, response, next) {
