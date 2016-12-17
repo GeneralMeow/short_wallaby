@@ -1,0 +1,146 @@
+/*Meyer's Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End Meyer's Reset*/
+
+* {
+  background-color: #F2F2F2;
+  /*font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;*/
+}
+.grid-item {
+  background-color: #F2F2F2;
+}
+#home {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 2.5em 5em;
+  overflow: hidden;
+}
+.grid-item {
+  padding:0px;
+  margin: 0 auto;
+  float:left;
+  gutter: 0;
+}
+/*.grid-item--width2 {
+  width: 50%;
+  background-color: blue;
+  color: white;
+  font-size: 2em;
+  margin: 5px;
+
+}*/
+.hidden {
+  display: none;
+}
+ul li {
+  list-style: none;
+}
+.grid-item img {
+  width: 170px;
+  height: 260px;
+  box-shadow: 5px 10px 5px rgb(215,225,234);
+  border: 1px solid rgba(255, 255, 255, .3);
+  margin: 10px;
+}
+#navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 0px 0.8em 1em;
+}
+#logo {
+  width: 15%;
+  height: 30%;
+	padding: 20px 0px 0px 85px;
+}
+.search {
+  margin-top: 1em;
+	padding: 10px;
+  height: 28px;
+  width: 40%;
+}
+#search-box {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+	font-size: 18px;
+  color: rgba(0,0,0,.5);
+  padding: .5em;
+	border-radius: 3px;
+	height: 45%;
+  width: 55%;
+  box-shadow: 1px 0px 1px rgba(242, 242, 242, .5) inset, 0px 1px 1px rgba(242, 242, 242, .5) inset;
+}
+#add-book {
+  font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-shadow: 1px 0px 2px rgba(150, 150, 150, 0.5);
+	height: 100%;
+	width: 25%;
+	justify-content: center;
+  padding: 0em;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgb(215,225,234);
+  border: 1px solid rgba(255, 255, 255, .9);
+  margin-left: 1em;
+}
+
+/*Book Detail View*/
+.detail-display {
+ padding: 5em;
+}
+.book-holder-image {
+
+}
+.book-info {
+
+}

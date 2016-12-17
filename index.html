@@ -3,50 +3,109 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Good Looking Book Store</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="styles/meyers-reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet">
   </head>
   <body>
+
     <!-- Template preparation-->
-    <ul>
+    <!-- <ul class="hidden">
       <li class="book-cover"></li>
       <li class="book-title"></li>
       <li class="book-author"></li>
       <li class="book-description"></li>
-    </ul>
+    </ul> -->
 
-    <!-- Sections for different page views-->
-    <!-- Home Page-->
+    <main>
+    <!-- Navigation-->
+      <section>
+        <div class="container" id="navigation">
+          <!-- logo-->
+          <img id="logo" src="images/short-wallaby.svg" alt="logo">
+          <!-- search box-->
+          <form class="search">
 
-    <section id="home" class="tab-content">
+            <input id="search-box" type="text" name="" placeholder="Enter a Book Title or Author">
+            <button id="add-book" type="submit" name="button">Add Book</button>
 
-      <div class="grid">
-        <div class="grid-item"><img src="images/book-cover-images/davidlynch-1536x1987.jpg"></div>
-        <div class="grid-item"><img src="images/book-cover-images/redqueen-1060x1592.jpg"></div>
-        <div class="grid-item"><img src="images/book-cover-images/middlec-1536x2273-1.jpg"></div>
-      </div>
+          </form>
+          <!-- add a book button-->
+        </div>
+      </section>
 
-    </section>
+      <!-- Sections for different page views-->
+      <!-- Home Page-->
+      <section id="home" class="tab-content">
+        <div class="grid">
+        </div>
+      </section>
 
-    <!-- Book Detail Page -->
-    <section id="book-detail" class="tab-content">
+      <!-- Book Detail Page -->
+      <section id="book-detail" class="tab-content">
+        <div class="detail-display">
+          <h1>Book Detail</h1>
+          <!--Book image -->
+          <img class="book-holder-image" src="" alt="blank book image">
+          <!-- container to hold title, author, desciption-->
+          <div class="book-info">
+            <h1 class="book-title">Book Title</h1>
+            <h2 class="book-author">Book Author</h2>
+            <p class="book-description">Book Description</p>
+          </div>
+          <!-- Form to hold edit and del buttons-->
+          <form class="book-detail-buttons">
+            <button id="edit-book" type="submit" name="button">Edit</button>
+                <button id="delete-book" type="submit" name="button">Delete</button>
+          </form>
+        </div>
+      </section>
 
-    </section>
+      <!-- Book Edit Page-->
+      <section id="book-edit" class="tab-content">
+        <div class="detail-display">
+          <h1>Edit Book Information</h1>
+          <!--Book image -->
+          <img class="book-holder-image" src="http://placehold.it/170x260.jpg" alt="blank book image">
+          <!-- container to hold title, author, desciption-->
+          <div class="book-info">
+            <form class="">
+              <input class="book-title" type="text" name="" value="Book Title">
+              <input class="book-author" type="text" name="" value="Book Author">
+              <input class="book-description" type="text" name="" value="Book Description">
+            </form>
+          </div>
+          <!-- Form to hold edit and del buttons-->
+        </div>
+      </section>
 
-    <!-- Book Edit Page-->
-    <section id="book-edit" class="tab-content">
-
-    </section>
-
-    <!-- Book Add Page-->
-    <section id="book-add" class="tab-content">
-
-    </section>
+      <!-- Book Add Page-->
+      <section id="book-add" class="tab-content">
+        <div class="detail-display">
+          <h1>Add A Book</h1>
+          <!--Book image -->
+          <img class="book-holder-image" src="http://placehold.it/170x260.jpg" alt="blank book image">
+          <!-- container to hold title, author, desciption-->
+          <div class="book-info">
+            <form class="">
+              <input class="book-title" type="text" name="" value="Enter Book Title">
+              <input class="book-author" type="text" name="" value="Enter Book Author">
+              <input class="book-description" type="text" name="" value="Enter Book Description">
+            </form>
+          </div>
+          <!-- Form to hold edit and del buttons-->
+        </div>
+      </section>
+      </main>
 
     <!--Main Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-        <script src="isotope.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="vendor-scripts/packery.pkgd.min.js"></script>
+    <script type="text/javascript" src="packery.js"></script>
+    <script type="text/javascript" src="data/library.js"></script>
+    <script type="text/javascript" src="scripts/models/libraryModel.js"></script>
+    <script type="text/javascript" src="scripts/views/libraryView.js"></script>
   </body>
 </html>

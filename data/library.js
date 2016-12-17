@@ -1,7 +1,7 @@
 const library = [
   {
     title: "1984",
-    author:"George Orwell", bookUrl:"images/book-cover-images2/1984-1536x2028.jpg",
+    author:"George Orwell", bookUrl:"images/book-cover-images/1984-1536x2028.jpg",
     description:""
   },
   {
@@ -43,7 +43,7 @@ const library = [
   {
     title: "Burn This Book",
     author:"Toni Morrison (ed.)",
-    bookUrl:"images/book-cover-images/breathingroom-1536x2233.jpg",
+    bookUrl:"images/book-cover-images/burn-this-book-1536x2306.jpg",
     description:"images/book-cover-images/burn-this-book-1536x2306.jpg"
   },
   {
@@ -61,7 +61,7 @@ const library = [
   {
     title: "David Lynch",
     author:"David Lynch",
-    bookUrl:"images/book-cover-images/davidlynch-1536x1987.jpg",
+    bookUrl:"images/book-cover-images/davidlynch.jpg",
     description:""
   },
   {
@@ -109,7 +109,7 @@ const library = [
   {
     title: "An Ethics Of Interrogation",
     author:"Michael Skerker",
-    bookUrl:"images/book-cover-images/endoffood-1536x2311.jpg",
+    bookUrl:"images/book-cover-images/ethics-of-interrogation-1536x2291.png",
     description:""
   },
   {
@@ -307,7 +307,7 @@ const library = [
   {
     title: "The Brief History Of The Dead",
     author:"Kevin Brockmeier",
-    bookUrl:"images/book-cover-images/theflamealphabet-1060x1585.jpg",
+    bookUrl:"images/book-cover-images/thebriefhistoryofthedead.jpg",
     description:""
   },
   {
@@ -337,13 +337,13 @@ const library = [
   {
     title: "The Sky Is Everywhere",
     author:"Jandy Nelson",
-    bookUrl:"images/book-cover-images/theshallows-1536x2332-1.jpg",
+    bookUrl:"images/book-cover-images/theskyiseverywhere-1536x2308.jpg",
     description:""
   },
   {
     title: "The Wealth Of Nations",
     author:"Adam Smith",
-    bookUrl:"images/book-cover-images/thewealthofnations-1060x1640.jpg",
+    bookUrl:"images/book-cover-images/thewealthofthenations-1060x1640.jpg",
     description:""
   },
   {
@@ -373,7 +373,7 @@ const library = [
   {
     title: "Undiscovered Gyrl",
     author:"Robert Louis Stevenson",
-    bookUrl:"images/book-cover-images/treasureisland-1060x1500.jpg",
+    bookUrl:"images/book-cover-images/undiscovered-gyrl-1536x2369.jpg",
     description:""
   },
   {
@@ -385,7 +385,7 @@ const library = [
   {
     title: "A Novel Of Zelda Fitzgerald",
     author:"Therese Anne Fowler",
-    bookUrl:"images/book-cover-images/treasureisland-1060x1500.jpg",
+    bookUrl:"images/book-cover-images/zanovelof-1536x2207.jpg",
     description:""
-  },
+  }
 ];
