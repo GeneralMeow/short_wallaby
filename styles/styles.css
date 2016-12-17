@@ -151,5 +151,35 @@ ul li {
   float: left;
 }
 .book-detail-buttons {
+  display: inline-block;
+  float: left;
+}
+.book-title-edit, .book-author-edit, .book-description-edit, .book-title-add, .book-author-add, .book-description-add {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+	font-size: 14px;
+  width: 500px;
+  margin: 10px 0px;
+  color: rgba(0,0,0,.5);
+  padding: .5em;
+	border-radius: 3px;
+  box-shadow: 1px 0px 1px rgba(242, 242, 242, .5) inset, 0px 1px 1px rgba(242, 242, 242, .5) inset;
+  display: inline-block;
+  clear: both;
+  float: left;
+}
+#edit-book-submit, #add-book-submit {
+  display: inline-block;
+  clear: both;
+  float: left;
+  font-size: .8em;
+  line-height: 1.25;
+  font-family: 'Lato', sans-serif;
+  margin: 20px 10px 0px 0px;
+  width: 5em;
 
+}
+.book-info, #book-add {
+  display: inline-block;
+  float: left;
 }
