@@ -8,7 +8,7 @@ function Library(opts){
 
 //Push all book objects into this array
 Library.allBooks = [];
-
+console.log(Library.allBooks);
 
 //Method to push all the books in our array of objects into our Library
 Library.loadAll = function(booksData) {
