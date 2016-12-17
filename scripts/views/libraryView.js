@@ -25,7 +25,7 @@ libraryView.getBookId = function() {
             bookIndex = Library.allBooks.indexOf(book)
             $('.book-holder-image').attr('src', book.bookUrl);
             $('.book-title').html(book.title);
-            $('.book-author').html(book.author);
+            $('.book-author').html('by ' + book.author);
             $('.book-description').html(book.description);
           }
 
@@ -80,6 +80,7 @@ libraryView.returnHome = function() {
     $('.tab-content').hide();
     $('#add-book-bottom').hide();
     $('#home').show();
+    $('#add-book-bottom').show();
   })
 }
 
