@@ -13,7 +13,6 @@ const getAllBooks = () => {
 
 const getBookById = (book_id) => {
   const sql = 'SELECT * FROM books WHERE books.id = $1'
-
   return database.one(sql, [book_id])
 };
 

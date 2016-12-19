@@ -10,12 +10,15 @@ router.get('/', function(request, response, next) {
   })
 });
 
+const {getAllBooks, getBookById} = require('../database')
+
 router.get('/book/:id', (request, response, next) => {
   const book_id = request.params.id
   db.getBookById(book_id)
     .then(book => {response.json(book)
     })
 })
+
 
 router.post('/new', (request, response, next) => {
   const title = request.body.title
@@ -49,5 +52,11 @@ router.delete('/delete/:id', (request, response, next) => {
 //     })
 // })
 
+
+
+router.get('/book', function(request, response, next) {
+  db.getAllBooks()
+  .then(books => response.render('layout', { books }))
+});
 
 module.exports = router;
