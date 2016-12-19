@@ -10,7 +10,7 @@ router.get('/', function(request, response, next) {
   })
 });
 
-const {getAllBooks, getBookById} = require('../database')
+// const {getAllBooks, getBookById} = require('../database')
 
 router.get('/book/:id', (request, response, next) => {
   const book_id = request.params.id
