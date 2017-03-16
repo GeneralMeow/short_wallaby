@@ -4,17 +4,19 @@ const db = require('../database')
 const {getAllBooks, getBookById} = require('../database')
 
 
-router.get('/book/:id', (req, res, next) => {
-  const book_id = req.params.id
+router.get('/book/:id', (request, response, next) => {
+  const book_id = request.params.id
   db.getBookById(book_id)
-    .then(book => {res.json(book)
+    .then(book => {response.render(book)
     })
 })
 
 /* GET home page. */
 router.get('/', function(request, response, next) {
   // Initial db read to create array books
-  response.render('index', { books: [{title:'Im a book', bookUrl:'blah'}] })
+  db.getAllBooks()
+  .then( books => response.render('index', { books: [{title:'Im a book', bookUrl:'blah'}] }))
+
 });
 
 router.get('/book', function(request, response, next) {
