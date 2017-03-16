@@ -1,8 +1,23 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  .book
-    for book in data
-      h1.booktitle {{book.title}}
+
+  main
+    // Navigation
+    section
+      #navigation.container
+        // logo
+        img#logo(src='images/short-wallaby.svg', alt='logo')
+        // search box
+        form.search
+          input#search-box(type='text', name='', value='Enter a Book Title or Author')
+          button#add-book(type='submit', name='button') Add Book
+        // add a book button
+    // Sections for different page views
+    // Home Page
+    section#home.tab-content
+      .grid
+        ul.grid-item
+          each book in books
+            li
+              img(src=book.bookUrl)

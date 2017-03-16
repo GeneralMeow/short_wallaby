@@ -1,0 +1,18 @@
+extends layout
+
+block content
+
+  section#book-detail.tab-content
+    .detail-display
+      h1 Book Detail
+      // Book image
+      img.book-holder-image(src='http://placehold.it/170x260.jpg', alt='blank book image')
+      // container to hold title, author, description
+      .book-info
+        h1.book-title=book.title
+        h2.book-author Book Author
+        p.book-description Book Description
+        // Form to hold edit and del buttons
+        form.book-detail-buttons
+          button(type='submit', name='button') Edit
+          button(type='submit', name='button') Delete

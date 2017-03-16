@@ -33,41 +33,9 @@ html
             button#add-book(type='submit', name='button') Add Book
           // add a book button
       // Sections for different page views
-      // Home Page
-      section#home.tab-content
-        .grid
-          ul.grid-item
-            each book in books
-              li
-                img(src=book.bookUrl)
-      // Book Detail Page
-      section#book-detail.tab-content
-        .detail-display
-          h1 Book Detail
-          // Book image
-          img.book-holder-image(src='http://placehold.it/170x260.jpg', alt='blank book image')
-          // container to hold title, author, description
-          .book-info
-            h1.book-title=book.title
-            h2.book-author Book Author
-            p.book-description Book Description
-          // Form to hold edit and del buttons
-          form.book-detail-buttons
-            button(type='submit', name='button') Edit
-            button(type='submit', name='button') Delete
-      // Book Edit Page
-      section#book-edit.tab-content
-        .detail-display
-          h1 Edit Book Information
-          // Book image
-          img.book-holder-image(src='http://placehold.it/170x260.jpg', alt='blank book image')
-          // container to hold title, author, description
-          .book-info
-            form
-              input.book-title(type='text', name='', value='Book Title')
-              input.book-author(type='text', name='', value='Book Author')
-              input.book-description(type='text', name='', value='Book Description')
-          // Form to hold edit and del buttons
+      
+        
+      
       // Book Add Page
       section#book-add.tab-content
         .detail-display
